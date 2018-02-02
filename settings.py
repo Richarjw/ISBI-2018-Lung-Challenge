@@ -1,0 +1,25 @@
+
+# coding: utf-8
+
+import os
+
+
+COMPUTER_NAME = os.environ['COMPUTERNAME']
+TARGET_VOXEL_MM = 1.00
+
+TRAIN_DIR_RAW = "./ISBI-deid-TRAIN/"
+TEST_DIR_RAW = "./ISBI-deid-TEST/"
+
+
+BEFORE_DIR = "/19990102/"
+AFTER_DIR = "/20000102/"
+
+WORKER_POOL_SIZE = 8
+SEGMENTER_IMG_SIZE = 320
+
+TRAIN_EXTRACTED_DIR = "./ISBI-extracted-TRAIN/"
+TEST_EXTRACTED_DIR = "./ISBI-extracted-TEST/"
+
+
+
+
